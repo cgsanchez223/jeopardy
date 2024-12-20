@@ -11,3 +11,4 @@ _________________________________________________________
 - Clicking Restart, restarts the board
 
 __________________________________________________________
+Deployment link: https://cgsanchez223.github.io/jeopardy/
