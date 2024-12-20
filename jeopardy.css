@@ -1,0 +1,94 @@
+/* /* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+    background-color: blue;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#jeopardy {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#jeopardy th {
+    border: solid 1px white;
+    background-color: #74119c;
+    width: 10em;
+    padding: 0.5em;
+}
+
+#jeopardy td {
+    border: solid 1px white;
+    width: 10em;
+    padding: 0.5em;
+    background-color: #115ff4;
+}
+
+#jeopardy td.disabled {
+    background-color: green;
+}
+
+th {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 6em;
+    text-shadow: black 1px 1px;
+}
+
+td {
+    height: 7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#start {
+    background-color: #28a200;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+#start:hover {
+    background-color: purple;
+}
+
+#start.disabled {
+    background-color: purple;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+#rotate {
+    font-size: 12em;
+    text-align: center;
+    color: white;
+    margin: 25px;
+    display: none;
+}
+
+#spin {
+    font-size: 20em;
+    text-align: center;
+}
